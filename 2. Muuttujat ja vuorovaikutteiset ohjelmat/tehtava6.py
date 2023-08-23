@@ -1,0 +1,12 @@
+import random
+a=str(random.randint(0,9))
+b=str(random.randint(0,9))
+c=str(random.randint(0,9))
+koodi1=str(a+b+c)
+d=str(random.randint(1,6))
+e=str(random.randint(1,6))
+f=str(random.randint(1,6))
+g=str(random.randint(1,6))
+koodi2=str(d+e+f+g)
+print(koodi1)
+print(koodi2)
