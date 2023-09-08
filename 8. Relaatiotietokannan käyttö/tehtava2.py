@@ -1,4 +1,5 @@
 import mysql.connector
+
 yhteys = mysql.connector.connect(
     host = '127.0.0.1',
     port = 3306,
@@ -19,7 +20,7 @@ def haelentokenttia(x):
         b+= '"'+i+'"'
         kursori.execute(b)
         print( i," : ",kursori.fetchall())
-        
+
 
 koodi=input("anna lentokentän maakoodi: ")
 haelentokenttia(koodi)
